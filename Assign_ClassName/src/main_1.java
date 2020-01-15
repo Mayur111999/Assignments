@@ -24,4 +24,4 @@ public class main_1 {
 }
 }
 
-//OUTPUT:-Value of a : -  10
+// OUTPUT:-Value of a : -  10

@@ -22,9 +22,11 @@ class main1
     } 
 } 
 
-/*OUTPUT: - 
+/*
+ OUTPUT: - 
+ 
 Run Simple Sparrow Implements Bird...
-Flying
+Flying 
 Chirp Chirp
 
 Simple ToyDuck...

@@ -1,5 +1,5 @@
 package template_design;
-
+//Implements Factory to initialize interface references
 public class main1 {
 
 	public static void main(String[] args)

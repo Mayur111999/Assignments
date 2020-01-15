@@ -1,7 +1,7 @@
 package Clone_Solution;
 
 //solution to clone method
-
+//implements Cloneable interface and override clone method return same Object
 class Singleton implements Cloneable
 { 
   public static Singleton i1 = new Singleton(); 

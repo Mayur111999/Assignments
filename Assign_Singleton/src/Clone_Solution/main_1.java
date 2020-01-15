@@ -32,5 +32,9 @@ public class main_1 {
 
 }
 
-  
+
+//OUTPUT: - 
+//instance1 hashCode,:- 918221580
+//instance2 hashCode:- 918221580
+
 

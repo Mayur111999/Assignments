@@ -1,7 +1,8 @@
 package Solution;
 
 import java.io.FileInputStream; 
-import java.io.FileOutputStream; 
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.ObjectInput; 
 import java.io.ObjectInputStream; 
 import java.io.ObjectOutput; 
@@ -28,18 +29,20 @@ public class serialization_solution {
 
     public static void main(String[] args)  
     { 
+    	 ObjectOutput  out = null;
+    	 ObjectInput in = null;
         try
         { 
             // Serailize object to file 
 
             Singleton instance1 = Singleton.instance1; 
-            ObjectOutput out=new ObjectOutputStream(new FileOutputStream("D:\\file.text")); 
+            out=new ObjectOutputStream(new FileOutputStream("D:\\file.text")); 
             out.writeObject(instance1); 
             out.close(); 
           
             // Deserailize from file to object 
             
-            ObjectInput in  = new ObjectInputStream(new FileInputStream("D:\\file.text")); 
+            in  = new ObjectInputStream(new FileInputStream("D:\\file.text")); 
             Singleton instance2 = (Singleton) in.readObject(); 
             in.close(); 
           
@@ -51,6 +54,21 @@ public class serialization_solution {
         { 
             e.printStackTrace(); 
         } 
+        finally
+        {
+        	try {
+            	out.close();
+				in.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+        }
     } 
 	
 }
+
+/*output: - 
+instance1 hashCode:- 1128032093
+instance2 hashCode:- 1128032093
+*/

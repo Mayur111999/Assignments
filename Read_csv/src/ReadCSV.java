@@ -46,3 +46,11 @@ public class ReadCSV {
 		
 	}
 }
+
+/*OUTPUT
+[
+ID = 101  ::Name  Ram  ::Role = Developer  ::Salary = 30000, 
+ID = 102  ::Name  Rajesh  ::Role = Lead  ::Salary = 50000, 
+ID = 103  ::Name  Nidhi  ::Role = Manager  ::Salary = 60000, 
+ID = 104  ::Name  Suraj  ::Role = Developer  ::Salary = 30000]
+*/

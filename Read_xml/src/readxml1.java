@@ -47,3 +47,34 @@ public class readxml1 {
 	}
 
 }
+/*OUTPUT: - 
+ * Root element: class
+
+Node Name :student
+Student id: 101
+First Name: Gaurav
+Last Name: Kirad
+Subject: Science
+Marks: 83
+
+Node Name :student
+Student id: 102
+First Name: Rajesh
+Last Name: Pandit
+Subject: Chemistry
+Marks: 88
+
+Node Name :student
+Student id: 103
+First Name: Sayali
+Last Name: Bathe
+Subject: Hindi
+Marks: 70
+
+Node Name :student
+Student id: 104
+First Name: Suraj
+Last Name: Kumbhar
+Subject: Biology
+Marks: 86
+*/

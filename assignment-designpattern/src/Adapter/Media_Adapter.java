@@ -1,5 +1,8 @@
 package Adapter;
 
+
+//MediaAapter Class implements MediaPlayer Interface and use AdvancedMediaPlayer Objects to play the required format
+
 public class Media_Adapter implements MediaPlayer {
 
 	AdvancedMediaPlayer advancedMusicPlayer;

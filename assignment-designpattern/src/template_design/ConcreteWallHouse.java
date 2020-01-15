@@ -1,6 +1,6 @@
 package template_design;
 //Concrete implementation of override methods
-public class Concrete_WallHouse extends house{
+public class ConcreteWallHouse extends house{
 
 	@Override
     public void decorateHouse() {

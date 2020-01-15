@@ -7,7 +7,7 @@ public class main_1 {
         { 
             Class cls = Class.forName("main_1"); //Loads the class in java
             main_1 obj =  (main_1) cls.newInstance(); //using newInstance Method to crate object
-            System.out.println(obj.a); 
+            System.out.println("Value of a : - "+obj.a); 
         } 
         catch (ClassNotFoundException e) 
         { 
@@ -23,3 +23,5 @@ public class main_1 {
         } 
 }
 }
+
+//OUTPUT:-Value of a : -  10
